@@ -1,0 +1,15 @@
+#Rumus Konversi Satuan Suhu(RKSS)
+
+import math
+
+#fungsi rumus merubah celcius ke kelvin
+def RumusCelciusKeKelvin (c,k):
+    return c+273,15
+
+#fungsi rumus merubah celcius ke rheamur
+def RumusCelciusKeRheamur (c,r):
+    return c*0,8
+
+#fungsi rumus merubah rheamur ke celcius
+def RumusRheamurKeCelcius (r,c):
+    return r*1,25
