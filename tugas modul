@@ -1,0 +1,41 @@
+#import.py
+
+#Mengimpor modul RKSS
+
+from TugasModul import RumusCelciusKeKelvin,RumusCelciusKeRheamur,RumusRheamurKeCelcius
+def main():
+    #Merubah celcius ke kelvin
+    c = 120 #celcius
+    k = 273,15 #kelvin
+
+    hasil = RumusCelciusKeKelvin (c,k)
+
+    print ("Merubah Celcius Ke Kelvin")
+    print ("Celcius\t: ",c)
+    print ("Kelvin\t: ",k)
+    print ("Hasil\t: ",hasil)
+
+    #merubah celcius ke rheamur
+    c = 170 #celcius
+    r = 0,8 #rheamur
+
+    hasil = RumusCelciusKeRheamur (c,r)
+
+    print ("Merubah Celcius Ke Rheamur")
+    print ("Celcius\t: ",c)
+    print ("Rheamur\t: ",r)
+    print ("Hasil\t: ",hasil)
+
+    #Merubah rheamur ke celcius
+    r = 210 #rheamur
+    c = 1,25 #celcius
+
+    hasil = RumusRheamurKeCelcius (r,c)
+
+    print ("Merubah Rheamur Ke Celcius")
+    print ("Rheamur\t: ",r)
+    print ("Celcius\t: ",c)
+    print ("Hasil\t: ",hasil)
+    
+if __name__ == "__main__":
+    main()
